@@ -40,7 +40,7 @@ getgenv().petsGoConfig = {
 
     -- Eggs
     -- SELL_EGG_MIN : [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
-    SELL_EGG = true, SELL_EGG_MIN = 5, SELL_EGG_PERCENTAGE = 0.93,
+    SELL_EGG = true, SELL_EGG_MIN = 5, SELL_EGG_PERCENTAGE = 0.88,
     SELL_HUGE_EGG = true, -- true/false
     SELL_HYPE_EGG = false, -- true/false
     
