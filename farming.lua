@@ -1,4 +1,4 @@
-script_key="lCLhfKFjHxkFqWzbhAEjckNKrAKIyCPl";
+script_key="dZhELTtXOWVyVkTKydlTWlDpPGRWUYSr";
 setfpscap(3)
 getgenv().petsGoConfig = {
     -- true/false
@@ -32,4 +32,5 @@ getgenv().petsGoConfig = {
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e81ea00ef49a917bb1242da4f41dc4f9.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cd1c29852c6641789162a7b0a4c97428.lua"))()
+
