@@ -32,5 +32,5 @@ getgenv().petsGoConfig = {
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cd1c29852c6641789162a7b0a4c97428.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3bd4d9c6addd473626372179ee4a4be3.lua"))()
 
