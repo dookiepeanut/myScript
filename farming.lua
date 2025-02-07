@@ -2,7 +2,7 @@ script_key="dZhELTtXOWVyVkTKydlTWlDpPGRWUYSr";
 setfpscap(3)
 getgenv().petsGoConfig = {
     -- true/false
-    CONSUME_CORRUPTED_HUGE_BAIT = true,
+    CONSUME_CORRUPTED_HUGE_BAIT = false,
     CONSUME_ALL_ENCHANT_SAFE = false,
     CONSUME_ALL_MINING_CHEST = false,
     CONSUME_EVENT_GIFT_BAG = false,
