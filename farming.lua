@@ -8,6 +8,7 @@ getgenv().petsGoConfig = {
     CONSUME_EVENT_GIFT_BAG = false,
     CONSUME_EVENT_EGG = false, -- Hype eggs not included
     IGNORE_DICE_COMBO = true,
+    SHOW_PET_WEBHOOK_USERNAME = true,
 
     WEBHOOK_URL = "https://discordapp.com/api/webhooks/1332679074933510239/DqzGuqp98v9mU8jz7U0fOc8l2A5wgMjqDMjzxMH7YKJOecVYiHGnlp7ezUocFvGT_q8O",
     MAILING_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1332679165442265129/N4G73oCnpZS-WMWLtSYvEyobeN1Tu6zxH7AD26CDc0rdaED8miWorKPnhP1Iqf0Os_LS",
@@ -23,15 +24,26 @@ getgenv().petsGoConfig = {
     MAIL_GEMS_MIN = 1000000,  -- Minimum Gems to mail out
 
     USERNAME_TO_MAIL = {
-        "ohiosigmawth1",
-        "ohiosigmawth2",
-        "ohiosigmawth6",
-        "ohiosigmawth8",
-        "ohiosigmawth10",
-        "mcdonaldsfriesgoodXD",
-        "ermswhatsthesigma",
-        "ApexFrosthowl6618",
-        "GlowingThornclaw4446",
+    "ohiosigmawth1",
+    "ohiosigmawth2",
+    "ohiosigmawth6",
+    "ohiosigmawth8",
+    "ohiosigmawth10",
+    "mcdonaldsfriesgoodXD",
+    "ermswhatsthesigma",
+    "ApexFrosthowl6618",
+    "GlowingThornclaw4446",
+    "DraconicMorningsong3",
+    "CosmicPhantom6845",
+    "SolsticeGlide6037",
+    "DawnbringerLyric3140",
+    "CelestineKrypton9886",
+    "ResonateSilence3290",
+    "MoonsightMooncrest27",
+    "CorvusSilver5637",
+    "IonstormChill9534",
+    "AetherPaladin5893",
+    "RosewoodEdge5451",
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
