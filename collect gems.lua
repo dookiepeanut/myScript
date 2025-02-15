@@ -8,8 +8,8 @@ getgenv().petsGoConfig = {
     MAIL_GEM_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1334683240358875288/56WW6WXJnpKq_d82bj6HW7gcBEHAzMVByETH8Xqyv9gF9L7i1XYCdI8oPIhioMr1zvP5",
 
     -- Plaza hop delay will reset if someone purchase something.
-    PLAZA_HOP_DELAY = 20,  -- (minutes) If no one purchase, server hop
-    BOOTH_RESET_DELAY = 8,  -- (minutes) force reset booth (Reset RAP Prices)
+    PLAZA_HOP_DELAY = 12,  -- (minutes) If no one purchase, server hop
+    BOOTH_RESET_DELAY = 3,  -- (minutes) force reset booth (Reset RAP Prices)
     AVOID_USERNAME = {
         "ohiosigmawth1",
         "ohiosigmawth2",
@@ -31,7 +31,7 @@ getgenv().petsGoConfig = {
     SELL_SCROLL = true, SELL_SCROLL_PERCENTAGE = 0.9,
     SELL_BAIT = true, SELL_BAIT_MIN = 3000, SELL_BAIT_PERCENTAGE = 0.93,
     SELL_CHEST = true, SELL_CHEST_MIN = 1000, SELL_CHEST_PERCENTAGE = 0.93,
-    SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.93,
+    SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.88,
     SELL_ENCHANT_SAFE = true, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 0.93,
 
     -- Potions
@@ -40,7 +40,7 @@ getgenv().petsGoConfig = {
 
     -- Eggs
     -- SELL_EGG_MIN : [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
-    SELL_EGG = true, SELL_EGG_MIN = 2000, SELL_EGG_PERCENTAGE = 0.89,
+    SELL_EGG = true, SELL_EGG_MIN = 2000, SELL_EGG_PERCENTAGE = 0.88,
     SELL_HUGE_EGG = true, -- true/false
     SELL_HYPE_EGG = true, -- true/false
     
