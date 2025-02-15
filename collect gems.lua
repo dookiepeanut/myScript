@@ -31,7 +31,7 @@ getgenv().petsGoConfig = {
     SELL_SCROLL = true, SELL_SCROLL_PERCENTAGE = 0.9,
     SELL_BAIT = true, SELL_BAIT_MIN = 3000, SELL_BAIT_PERCENTAGE = 0.93,
     SELL_CHEST = true, SELL_CHEST_MIN = 1000, SELL_CHEST_PERCENTAGE = 0.93,
-    SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.88,
+    SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.85,
     SELL_ENCHANT_SAFE = true, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 0.93,
 
     -- Potions
@@ -54,7 +54,7 @@ getgenv().petsGoConfig = {
     SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 0.9,
 
     -- Event
-    SELL_CHARGE_TOKEN = true, SELL_CHARGE_TOKEN_MIN = 5, SELL_CHARGE_TOKEN_PERCENTAGE = 0.9,
+    SELL_EVENT_TICKET = true, SELL_EVENT_TICKET_MIN = 5, SELL_EVENT_TICKET_PERCENTAGE = 0.95,
 
     MAIL_GEMS_USERNAME = {"jasminenectar157"},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
     MAIL_GEMS_MIN = 30000000  -- Minimum gems required to send
