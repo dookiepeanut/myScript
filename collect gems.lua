@@ -16,8 +16,7 @@ getgenv().petsGoConfig = {
         "ohiosigmawth6",
         "ohiosigmawth8",
         "ohiosigmawth10",
-        "mcgriddleisback",
-        "mcdiddleisback",
+
     },  -- serverhop when it finds username, You can put multiple usernames
     
     -- Pets
