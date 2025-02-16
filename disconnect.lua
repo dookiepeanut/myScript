@@ -1,2 +1,2 @@
 
-game.Players.LocalPlayer:Kick("Restarting Marmot Script...")
+-- game.Players.LocalPlayer:Kick("Restarting Marmot Script...")
