@@ -11,12 +11,10 @@ getgenv().petsGoConfig = {
     PLAZA_HOP_DELAY = 12,  -- (minutes) If no one purchase, server hop
     BOOTH_RESET_DELAY = 3,  -- (minutes) force reset booth (Reset RAP Prices)
     AVOID_USERNAME = {
-        "ohiosigmawth1",
-        "ohiosigmawth2",
-        "ohiosigmawth6",
-        "ohiosigmawth8",
-        "ohiosigmawth10",
-
+    "ohiosigmawth1",
+    "ohiosigmawth6",
+    "MonolithRedvale7873",
+    "GravitasWarden5079",
     },  -- serverhop when it finds username, You can put multiple usernames
     
     -- Pets
