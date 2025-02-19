@@ -24,15 +24,10 @@ getgenv().petsGoConfig = {
     MAIL_GEMS_MIN = 50000,  -- Minimum Gems to mail out
 
     USERNAME_TO_MAIL = {
-    "ohiosigmawth1",
-    "ohiosigmawth2",
-    "ohiosigmawth6",
-    "ohiosigmawth8",
-    "ohiosigmawth10",
-    "StellarisColossus337",
-    "MonolithRedvale7873",
-    "SkylashOakheart1736",
-    "GravitasWarden5079",
+        "ohiosigmawth1",
+        "ohiosigmawth6",
+        "MonolithRedvale7873",
+        "GravitasWarden5079",
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
