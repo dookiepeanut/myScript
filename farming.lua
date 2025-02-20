@@ -1,5 +1,5 @@
 script_key="dZhELTtXOWVyVkTKydlTWlDpPGRWUYSr";
-setfpscap(3)
+setfpscap(4)
 getgenv().petsGoConfig = {
     -- true/false
     CONSUME_CORRUPTED_HUGE_BAIT = false,
@@ -21,31 +21,12 @@ getgenv().petsGoConfig = {
     MAILING = true,  -- Auto mail
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
-    MAIL_GEMS_MIN = 50000,  -- Minimum Gems to mail out
+    MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
 
     USERNAME_TO_MAIL = {
         "ohiosigmawth6",
         "MonolithRedvale7873",
         "SkylashOakheart1736",
-        "axiomaticgerbil6954",
-        "testedmamba300",
-        "ochrehippo9441",
-        "fastdolphin2071",
-        "wisemacaque6718",
-        "encouragingbinturong",
-        "finickycassowary1394",
-        "stickymuskox4276",
-        "poeticlynx2641",
-        "whimsicalnautilus533",
-        "daffodiltrout4161",
-        "spicyreindeer5203",
-        "fortunatesalmon4804",
-        "loosemongoose1657",
-        "fabulousdragon7000",
-        "giftedjerboa3309",
-        "bronzeocelot9067",
-        "largeswine4492",
-        "vanillamule4167",
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
