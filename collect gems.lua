@@ -1,3 +1,5 @@
+setfpscap(5)
+
 script_key="lCLhfKFjHxkFqWzbhAEjckNKrAKIyCPl";
 
 -- Config with "MIN" = 1-5000 Minimum Quantity to sell
