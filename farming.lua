@@ -43,7 +43,6 @@ getgenv().petsGoConfig = {
         "loosemongoose1657",
         "fabulousdragon7000",
         "giftedjerboa3309",
-        "melloworangutan3369",
         "bronzeocelot9067",
         "largeswine4492",
         "vanillamule4167",
