@@ -56,7 +56,7 @@ getgenv().petsGoConfig = {
     SELL_EVENT_TICKET = true, SELL_EVENT_TICKET_MIN = 3, SELL_EVENT_TICKET_PERCENTAGE = 0.93,
 
     MAIL_GEMS_USERNAME = {"jasminenectar157"},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
-    MAIL_GEMS_MIN = 30000000  -- Minimum gems required to send
+    MAIL_GEMS_MIN = 20000000  -- Minimum gems required to send
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/074ae419ea26f2a773d8e592958ec2e8.lua"))() 
