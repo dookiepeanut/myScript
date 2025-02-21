@@ -26,7 +26,6 @@ getgenv().petsGoConfig = {
     USERNAME_TO_MAIL = {
         "ohiosigmawth6",
         "MonolithRedvale7873",
-        "SkylashOakheart1736",
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
