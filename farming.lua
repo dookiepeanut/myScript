@@ -1,19 +1,20 @@
 script_key="dZhELTtXOWVyVkTKydlTWlDpPGRWUYSr";
 setfpscap(4)
 getgenv().petsGoConfig = {
-    -- true/false
-    CONSUME_CORRUPTED_HUGE_BAIT = false,
+    AUTO_RESTART = true,
+    -- true/false (true = consume, false = automail)
+    CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_ALL_ENCHANT_SAFE = false,
     CONSUME_ALL_MINING_CHEST = false,
-    CONSUME_EVENT_GIFT_BAG = false,
     CONSUME_EVENT_EGG = false, -- Hype eggs not included
-    IGNORE_DICE_COMBO = true,
-    SHOW_PET_WEBHOOK_USERNAME = true,
+    CONSUME_ALL_THIEVING_CHEST = false,
+    CONSUME_INSTA_LUCK_4 = true,
+    IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
-    WEBHOOK_URL = "https://discordapp.com/api/webhooks/1332679074933510239/DqzGuqp98v9mU8jz7U0fOc8l2A5wgMjqDMjzxMH7YKJOecVYiHGnlp7ezUocFvGT_q8O",
-    MAILING_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1332679165442265129/N4G73oCnpZS-WMWLtSYvEyobeN1Tu6zxH7AD26CDc0rdaED8miWorKPnhP1Iqf0Os_LS",
-    DISCORD_ID = "1168121186790686779",  -- Required!!! (For public-webhook)
-    WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
+    WEBHOOK_URL = "",
+    MAILING_WEBHOOK_URL = "",
+    DISCORD_ID = "",
+    WEBHOOK_ODDS = 100000000, -- Minimum Pet Odds To Trigger Webhook
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     MINE_ALL_ORES = true,  -- true = all ore, false = runic & event ore
@@ -24,8 +25,31 @@ getgenv().petsGoConfig = {
     MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
 
     USERNAME_TO_MAIL = {
-        "ohiosigmawth6",
-        "MonolithRedvale7873",
+        "crystalwildcat5503",
+        "whitestork9667",
+        "sincerecopperhead301",
+        "sweetguppy6625",
+        "curiousquoll2413",
+        "pompousdogfish2047",
+        "realisticnyala8282",
+        "hiddenzebu8706",
+        "maizebeaver2483",
+        "unyieldinganteater38",
+        "roseelephant7198",
+        "olivinegibbon2747",
+        "amaranthowl3386",
+        "refinedtench6232",
+        "cordialtarantula5872",
+        "coppergerbil6786",
+        "perfectquoll4121",
+        "ivoryherring3885",
+        "abidingpetrel4975",
+        "quaintbettong6988",
+        "steadydragon5837",
+        "uptightibis5096",
+        "maskedrobin5121",
+        "benigncoyote4273",
+        "delectableeagle6369",
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
