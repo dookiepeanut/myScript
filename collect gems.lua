@@ -43,17 +43,17 @@ getgenv().petsGoConfig = {
     SELL_CONSUMABLE = true, SELL_CONSUMABLE_MIN = 10, SELL_CONSUMABLE_PERCENTAGE = 0.9,
     SELL_SCROLL = true, SELL_SCROLL_PERCENTAGE = 0.9,
     SELL_BAIT = true, SELL_BAIT_MIN = 3000, SELL_BAIT_PERCENTAGE = 0.93,
-    SELL_CHEST = true, SELL_CHEST_MIN = 1000, SELL_CHEST_PERCENTAGE = 0.93,
+    SELL_CHEST = true, SELL_CHEST_MIN = 10, SELL_CHEST_PERCENTAGE = 0.91,
     SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.9,
     SELL_ENCHANT_SAFE = true, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 0.93,
 
     -- Potions
-    SELL_POTION = true, SELL_POTION_MIN = 3000, SELL_POTION_PERCENTAGE = 0.88,
+    SELL_POTION = true, SELL_POTION_MIN = 10, SELL_POTION_PERCENTAGE = 0.92,
     SELL_GOD_POTION = true, SELL_GOD_POTION_PERCENTAGE = 0.92,
 
     -- Eggs
     -- SELL_EGG_MIN : [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
-    SELL_EGG = true, SELL_EGG_MIN = 2000, SELL_EGG_PERCENTAGE = 0.88,
+    SELL_EGG = true, SELL_EGG_MIN = 10, SELL_EGG_PERCENTAGE = 0.88,
     SELL_HUGE_EGG = true, -- true/false
     SELL_HYPE_EGG = true, -- true/false
     
@@ -65,9 +65,7 @@ getgenv().petsGoConfig = {
     -- Tools
     SELL_FISHING_ROD = true, SELL_FISHING_ROD_PERCENTAGE = 0.93, 
     SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 0.9,
-
-    -- Event
-    SELL_EVENT_TICKET = true, SELL_EVENT_TICKET_MIN = 3, SELL_EVENT_TICKET_PERCENTAGE = 0.9,
+    SELL_LOCKPICK = true, SELL_LOCKPICK_PERCENTAGE = 0.9,
 
     MAIL_GEMS_USERNAME = {"jasminenectar157"},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
     MAIL_GEMS_MIN = 20000000  -- Minimum gems required to send
