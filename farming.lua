@@ -8,7 +8,7 @@ getgenv().petsGoConfig = {
     CONSUME_ALL_MINING_CHEST = false,
     CONSUME_EVENT_EGG = false, -- Hype eggs not included
     CONSUME_ALL_THIEVING_CHEST = false,
-    CONSUME_INSTA_LUCK_4 = true,
+    CONSUME_INSTA_LUCK_4 = false,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
     WEBHOOK_URL = "",
