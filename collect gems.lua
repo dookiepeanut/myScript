@@ -62,7 +62,7 @@ getgenv().petsGoConfig = {
     SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 0.83,
     SELL_LOCKPICK = true, SELL_LOCKPICK_PERCENTAGE = 0.83,
 
-    MAIL_GEMS_USERNAME = {"jasminenectar157"},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
+    MAIL_GEMS_USERNAME = {"rogers128"},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
     MAIL_GEMS_MIN = 20000000  -- Minimum gems required to send
 }
 
