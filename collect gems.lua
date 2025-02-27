@@ -13,26 +13,19 @@ getgenv().petsGoConfig = {
     PLAZA_HOP_DELAY = 15,  -- (minutes) If no one purchase, server hop
     BOOTH_RESET_DELAY = 3,  -- (minutes) force reset booth (Reset RAP Prices)
     AVOID_USERNAME = {
-"Robloxianc6v3c1a4u",
-"Robloxianw7o2v5l8q",
-"Robloxiany4m3k2s1k",
-"Robloxiank2u5q1j6r",
-"Robloxianf7o4p2k3",
-"Robloxianl3i6l1u3e",
-"Robloxianp7w5u7a9s",
-"Robloxianl7b6o6k5r",
-"Robloxiana0g5a6k2g",
-"Robloxianj9y5t4g4o",
-"Robloxiank9h6e1i7t",
-"Robloxianb1n0g7j3i",
-"Robloxiana4q7k7d4",
-"Robloxiank0a0t8g2u",
-"Robloxianj3q6y3n1v",
-"Robloxianm1f1x5c1x",
-"Robloxianm1l7k9i3s",
-"Robloxianm9q7b0a9i",
-"Robloxianx4a6n4i7l",
 "Robloxianl8p9d0d6s",
+"Robloxianx4a6n4i7l",
+"Robloxianm1l7k9i3s",
+"Robloxianm1f1x5c1x",
+"Robloxiank0a0t8g2u",
+"Robloxiank9h6e1i7t",
+"Robloxianj9y5t4g4o",
+"Robloxianl3i6l1u3e",
+"Robloxianf7o4p2k3",
+"Robloxiank2u5q1j6r",
+"Robloxiany4m3k2s1k",
+"Robloxianw7o2v5l8q",
+"Robloxianc6v3c1a4u",
     },  -- serverhop when it finds username, You can put multiple usernames
     
     -- Pets
