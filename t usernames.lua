@@ -14,7 +14,6 @@ local usernames = {
 "Rav3nGold3n74",
 "WraithStream84",
 "XxLegendStarxX2022",
-"XxByte_BlockxX22",
 "XxW0lfR0guexX87",
 "S0phia_Prism2003",
 "Mate0Fr0stC0de",
