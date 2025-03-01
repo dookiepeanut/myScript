@@ -6,7 +6,6 @@ local usernames = {
 "ZapTurbo2024",
 "Puls3Hyp3r2006",
 "XX_ArrowShadowStormy",
-"TurboStream75",
 "XxZap_BlastxX22",
 "BladePh0enix45",
 "Hyper_Fox2019",
