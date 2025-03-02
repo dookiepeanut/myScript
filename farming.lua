@@ -5,11 +5,12 @@ getgenv().petsGoConfig = {
     -- true/false (true = consume, false = automail)
     CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_ALL_ENCHANT_SAFE = false,
-    CONSUME_ALL_MINING_CHEST = false,
-    CONSUME_EVENT_EGG = false, -- Hype eggs not included
+    CONSUME_ALL_MINING_CHEST = true,
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
     CONSUME_ALL_THIEVING_CHEST = false,
-    CONSUME_INSTA_LUCK_4 = false,
+    CONSUME_INSTA_LUCK_4 = true,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
+    CONSUME_VAULT_KEY = true,
 
     WEBHOOK_URL = "",
     MAILING_WEBHOOK_URL = "",
