@@ -11,7 +11,6 @@ local usernames = {
 "SparkPixelYT",
 "Bl0ck_Rift2020",
 "StarryTurbo2011",
-"LionHazeGalaxy96",
 "Lion_Chill63",
 "St0rmOm3ga",
 "XxThunder_Fusi0nxX",
