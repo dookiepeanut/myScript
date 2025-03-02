@@ -1,21 +1,8 @@
 local usernames = {
-"SavannahPower2003",
-"Charl0tteEch02017",
 "Pixelated_Raven2018",
-"CrazeMoonChaos",
-"ZapTurbo2024",
-"Puls3Hyp3r2006",
 "XX_ArrowShadowStormy",
-"XxZap_BlastxX22",
-"BladePh0enix45",
-"Hyper_Fox2019",
 "GlitchCyb3rPuls3",
-"Rav3nGold3n74",
-"WraithStream84",
-"XxLegendStarxX2022",
 "XxW0lfR0guexX87",
-"S0phia_Prism2003",
-"Mate0Fr0stC0de",
 "EpicBlastTiger2021",
 }
 return usernames
