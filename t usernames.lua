@@ -15,7 +15,6 @@ local usernames = {
 "St0rmOm3ga",
 "XxThunder_Fusi0nxX",
 "RogueWraith_YT",
-"Am3liaCooki3Pow3r",
 "Spark_Byt3",
 }
 return usernames
