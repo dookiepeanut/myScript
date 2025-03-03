@@ -1,6 +1,6 @@
 setfpscap(5)
 
-script_key="lCLhfKFjHxkFqWzbhAEjckNKrAKIyCPl";
+script_key="dZhELTtXOWVyVkTKydlTWlDpPGRWUYSr";
 
 -- Config with "MIN" = 1-5000 Minimum Quantity to sell
 -- Config with "SELL_PERCENTAGE" -> 1 = 100% RAP, 1.1 = 110% RAP, 0.8 = 80% RAP, , 0.85 = 85% RAP (Any Amount)
@@ -45,7 +45,7 @@ getgenv().petsGoConfig = {
     SELL_CONSUMABLE = true, SELL_CONSUMABLE_MIN = 10, SELL_CONSUMABLE_PERCENTAGE = 0.83,
     SELL_SCROLL = true, SELL_SCROLL_PERCENTAGE = 0.83,
     SELL_BAIT = true, SELL_BAIT_MIN = 3000, SELL_BAIT_PERCENTAGE = 0.83,
-    SELL_CHEST = true, SELL_CHEST_MIN = 10, SELL_CHEST_PERCENTAGE = 0.83,
+    SELL_CHEST = true, SELL_CHEST_MIN = 1000, SELL_CHEST_PERCENTAGE = 0.83,
     SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.83,
     SELL_ENCHANT_SAFE = true, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 0.83,
 
@@ -55,7 +55,7 @@ getgenv().petsGoConfig = {
 
     -- Eggs
     -- SELL_EGG_MIN : [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
-    SELL_EGG = true, SELL_EGG_MIN = 10, SELL_EGG_PERCENTAGE = 0.83,
+    SELL_EGG = true, SELL_EGG_MIN = 1000, SELL_EGG_PERCENTAGE = 0.83,
     SELL_HUGE_EGG = true, -- true/false
     SELL_HYPE_EGG = true, -- true/false
     
@@ -73,4 +73,4 @@ getgenv().petsGoConfig = {
     MAIL_GEMS_MIN = 20000000  -- Minimum gems required to send
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/074ae419ea26f2a773d8e592958ec2e8.lua"))() 
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f052a5fc5329a6e3c1c9b4ffbaabecf8.lua"))() 
