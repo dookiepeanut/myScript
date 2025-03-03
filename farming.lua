@@ -8,12 +8,12 @@ getgenv().petsGoConfig = {
     CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_EGG = true, -- Hype eggs not included
     CONSUME_ALL_THIEVING_CHEST = true,
-    CONSUME_INSTA_LUCK_4 = true,
+    CONSUME_INSTA_LUCK_4 = false,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
     CONSUME_VAULT_KEY = true,
 
-    WEBHOOK_URL = "",
-    MAILING_WEBHOOK_URL = "",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1332679074933510239/DqzGuqp98v9mU8jz7U0fOc8l2A5wgMjqDMjzxMH7YKJOecVYiHGnlp7ezUocFvGT_q8O",
+    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1332679165442265129/N4G73oCnpZS-WMWLtSYvEyobeN1Tu6zxH7AD26CDc0rdaED8miWorKPnhP1Iqf0Os_LS",
     DISCORD_ID = "1168121186790686779",
     WEBHOOK_ODDS = 100000000, -- Minimum Pet Odds To Trigger Webhook
 
