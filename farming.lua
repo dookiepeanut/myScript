@@ -1,5 +1,5 @@
 script_key="dZhELTtXOWVyVkTKydlTWlDpPGRWUYSr";
-setfpscap(3)
+setfpscap(5)
 getgenv().petsGoConfig = {
     AUTO_RESTART = true,
     -- true/false (true = consume, false = automail)
