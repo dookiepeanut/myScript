@@ -44,5 +44,11 @@ getgenv().petsGoConfig = {
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
+for _, username in pairs(getgenv().petsGoConfig.USERNAME_TO_MAIL) do
+    if game.Players.LocalPlayer.Name == username then
+        getgenv().petsGoConfig.USERNAME_TO_MAIL = {""}
+    end
+end
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3bd4d9c6addd473626372179ee4a4be3.lua"))()
 
