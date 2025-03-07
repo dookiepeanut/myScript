@@ -10,7 +10,7 @@ getgenv().petsGoConfig = {
     MAIL_GEM_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1334683240358875288/56WW6WXJnpKq_d82bj6HW7gcBEHAzMVByETH8Xqyv9gF9L7i1XYCdI8oPIhioMr1zvP5",
 
     -- Plaza hop delay will reset if someone purchase something.
-    PLAZA_HOP_DELAY = 15,  -- (minutes) If no one purchase, server hop
+    PLAZA_HOP_DELAY = 99999,  -- (minutes) If no one purchase, server hop
     BOOTH_RESET_DELAY = 3,  -- (minutes) force reset booth (Reset RAP Prices)
     AVOID_USERNAME = {
 "ArcturusAshdrake6174",
