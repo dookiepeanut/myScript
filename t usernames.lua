@@ -1,23 +1,6 @@
 local usernames = {
-"StarbloomCyclone5618",
-"RavenpeakVoid2629",
 "FirewingPlasma560",
 "AstroViper4073",
-"IridesceFate4194",
 "WintertideCobra75",
-"DuskfallSkylark5582",
-"CrimsonSphere8662",
-"SigilBoulderclaw1710",
-"MagnesisClaw2051",
-"FrostTorch6178",
-"CrimsonFinale679",
-"RadiantiaTorch3709",
-"PhoenixMidnight2336",
-"NebulonOpal6517",
-"AccordMurmur7495",
-"StarfallShade2680",
-"ZenSmoulder8864",
-"EonDawnroot6867",
-"StellarMech6981",
 }
 return usernames
