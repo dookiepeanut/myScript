@@ -13,26 +13,16 @@ getgenv().petsGoConfig = {
     PLAZA_HOP_DELAY = 99999,  -- (minutes) If no one purchase, server hop
     BOOTH_RESET_DELAY = 3,  -- (minutes) force reset booth (Reset RAP Prices)
     AVOID_USERNAME = {
-"StarbloomCyclone5618",
-"RavenpeakVoid2629",
-"FirewingPlasma560",
-"AstroViper4073",
-"IridesceFate4194",
-"WintertideCobra75",
-"DuskfallSkylark5582",
-"CrimsonSphere8662",
-"SigilBoulderclaw1710",
-"MagnesisClaw2051",
-"FrostTorch6178",
-"CrimsonFinale679",
-"RadiantiaTorch3709",
-"PhoenixMidnight2336",
-"NebulonOpal6517",
-"AccordMurmur7495",
-"StarfallShade2680",
-"ZenSmoulder8864",
-"EonDawnroot6867",
-"StellarMech6981",
+        "WintertideCobra75",
+        "FirewingPlasma560",
+        "FlareHarvester2277",
+        "StarbloomSting6721",
+        "XxNinjaGoldenThunder",
+        "CorvusRider9514",
+        "HorizonJavelin1720",
+        "ThunderStream2009",
+        "XxAva_VenomxX2013",
+        "UltraVoid2004",
     },  -- serverhop when it finds username, You can put multiple usernames
     
     -- Pets
@@ -69,7 +59,7 @@ getgenv().petsGoConfig = {
     SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 0.83,
     SELL_LOCKPICK = false, SELL_LOCKPICK_PERCENTAGE = 0.83,
 
-    MAIL_GEMS_USERNAME = {""},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
+    MAIL_GEMS_USERNAME = {"AuroraLavaInferno"},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
     MAIL_GEMS_MIN = 35000000  -- Minimum gems required to send
 }
 
