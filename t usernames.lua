@@ -1,6 +1,5 @@
 local usernames = {
-"WintertideCobra75",
-"FirewingPlasma560",
+
 "FlareHarvester2277",
 "StarbloomSting6721",
 "XxNinjaGoldenThunder",
