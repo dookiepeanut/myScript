@@ -32,35 +32,35 @@ getgenv().petsGoConfig = {
     SELL_HUGE = true, SELL_SHINY_HUGE = true, SELL_PERCENTAGE_HUGE = 0.85,
     
     -- Consumables
-    SELL_CONSUMABLE = true, SELL_CONSUMABLE_MIN = 10, SELL_CONSUMABLE_PERCENTAGE = 0.83,
+    SELL_CONSUMABLE = true, SELL_CONSUMABLE_MIN = 10, SELL_CONSUMABLE_PERCENTAGE = 0.80,
     SELL_SCROLL = true, SELL_SCROLL_PERCENTAGE = 0.83,
-    SELL_BAIT = true, SELL_BAIT_MIN = 3000, SELL_BAIT_PERCENTAGE = 0.83,
-    SELL_CHEST = true, SELL_CHEST_MIN = 1000, SELL_CHEST_PERCENTAGE = 0.82,
-    SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.83,
-    SELL_ENCHANT_SAFE = true, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 0.83,
+    SELL_BAIT = true, SELL_BAIT_MIN = 3000, SELL_BAIT_PERCENTAGE = 0.80,
+    SELL_CHEST = true, SELL_CHEST_MIN = 1000, SELL_CHEST_PERCENTAGE = 0.80,
+    SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.80,
+    SELL_ENCHANT_SAFE = true, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 0.80,
 
     -- Potions
-    SELL_POTION = true, SELL_POTION_MIN = 10, SELL_POTION_PERCENTAGE = 0.9,
-    SELL_GOD_POTION = true, SELL_GOD_POTION_PERCENTAGE = 0.83,
+    SELL_POTION = true, SELL_POTION_MIN = 10, SELL_POTION_PERCENTAGE = 0.85,
+    SELL_GOD_POTION = true, SELL_GOD_POTION_PERCENTAGE = 0.80,
 
     -- Eggs
     -- SELL_EGG_MIN : [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
-    SELL_EGG = true, SELL_EGG_MIN = 1000, SELL_EGG_PERCENTAGE = 0.83,
+    SELL_EGG = true, SELL_EGG_MIN = 1000, SELL_EGG_PERCENTAGE = 0.80,
     SELL_HUGE_EGG = true, -- true/false
     SELL_HYPE_EGG = true, -- true/false
     
     -- Keys
-    SELL_KEY = true, SELL_KEY_MIN = 50, SELL_KEY_PERCENTAGE = 0.93,
+    SELL_KEY = true, SELL_KEY_MIN = 50, SELL_KEY_PERCENTAGE = 0.85,
     SELL_KEY_LOWER = false,  -- true/false, enable selling lower crystal key
     SELL_KEY_UPPER = false,  -- true/false, enable selling upper crystal key
 
     -- Tools
-    SELL_FISHING_ROD = true, SELL_FISHING_ROD_PERCENTAGE = 0.83, 
-    SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 0.83,
-    SELL_LOCKPICK = false, SELL_LOCKPICK_PERCENTAGE = 0.83,
+    SELL_FISHING_ROD = true, SELL_FISHING_ROD_PERCENTAGE = 0.80, 
+    SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 0.80,
+    SELL_LOCKPICK = false, SELL_LOCKPICK_PERCENTAGE = 0.80,
 
     MAIL_GEMS_USERNAME = {"AuroraLavaInferno"},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
-    MAIL_GEMS_MIN = 35000000  -- Minimum gems required to send
+    MAIL_GEMS_MIN = 30000000  -- Minimum gems required to send
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f052a5fc5329a6e3c1c9b4ffbaabecf8.lua"))() 
