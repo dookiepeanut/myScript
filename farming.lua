@@ -20,22 +20,13 @@ getgenv().petsGoConfig = {
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     MINE_ALL_ORES = true,  -- true = all ore, false = runic & event ore
     
-    MAILING = true,  -- Auto mail
+    MAILING = false,  -- Auto mail
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
     MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
 
     USERNAME_TO_MAIL = {
-        "WintertideCobra75",
-        "FirewingPlasma560",
-        "FlareHarvester2277",
-        "StarbloomSting6721",
-        "XxNinjaGoldenThunder",
-        "CorvusRider9514",
-        "HorizonJavelin1720",
-        "ThunderStream2009",
-        "XxAva_VenomxX2013",
-        "UltraVoid2004",
+    "",
     } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
