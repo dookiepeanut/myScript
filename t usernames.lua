@@ -1,10 +1,13 @@
 local usernames = {
-
-"FlareHarvester2277",
-"StarbloomSting6721",
-"XxNinjaGoldenThunder",
-"HorizonJavelin1720",
-"ThunderStream2009",
-"UltraVoid2004",
+"PaisleyFireBeast",
+"ToxicBaconRift",
+"LionDragonSonic",
+"ToxicRaven2017",
+"GravitasSummit9661",
+"SLIME_Hawk2008",
+"Fr0stN0vaBane",
+"AidenC00kieLava20",
+"CourageWillowthorn93",
+"JacksonNight2013",
 }
 return usernames
