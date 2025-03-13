@@ -19,6 +19,5 @@ local usernames = {
 "NovaNova2914",
 "PsycheSquall1502",
 "IcicleGlimmerclaw322",
-
 }
 return usernames
