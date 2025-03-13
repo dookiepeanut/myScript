@@ -4,13 +4,12 @@ getgenv().petsGoConfig = {
     AUTO_RESTART = true,
     -- true/false (true = consume, false = automail)
     CONSUME_CORRUPTED_HUGE_BAIT = true,
-    CONSUME_ALL_ENCHANT_SAFE = false,
     CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_EGG = true, -- Hype eggs not included
-    CONSUME_ALL_THIEVING_CHEST = true,
-    CONSUME_INSTA_LUCK_4 = false,
-    IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
+    CONSUME_INSTA_LUCK_4 = true,
     CONSUME_VAULT_KEY = true,
+    CONSUME_KRAKEN_TENTACLE = true,
+    CONSUME_BUCKET_O_CHUM = true,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1332679074933510239/DqzGuqp98v9mU8jz7U0fOc8l2A5wgMjqDMjzxMH7YKJOecVYiHGnlp7ezUocFvGT_q8O",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1332679165442265129/N4G73oCnpZS-WMWLtSYvEyobeN1Tu6zxH7AD26CDc0rdaED8miWorKPnhP1Iqf0Os_LS",
@@ -18,16 +17,14 @@ getgenv().petsGoConfig = {
     WEBHOOK_ODDS = 100000000, -- Minimum Pet Odds To Trigger Webhook
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
-    MINE_ALL_ORES = true,  -- true = all ore, false = runic & event ore
+    MINE_ALL_ORES = false,  -- true = all ore, false = runic & event ore
     
     MAILING = false,  -- Auto mail
-    MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
-    MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
+    SHOW_PET_WEBHOOK_USERNAME = true,
+    MAIL_WEBHOOK_ODDS = 100000000, -- Minimum Pet Odds To Trigger MAIL Webhook
+    MAIL_PET_ODDS = 100000000,  -- Minimum Pet Odds To Mail
 
-    USERNAME_TO_MAIL = {
-    "",
-    } -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
+    USERNAME_TO_MAIL = {""}, -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"} 
 }
 
 for _, username in pairs(getgenv().petsGoConfig.USERNAME_TO_MAIL) do
