@@ -45,23 +45,23 @@ getgenv().petsGoConfig = {
     -- Consumables
     SELL_CONSUMABLE = true, SELL_CONSUMABLE_MIN = 10, SELL_CONSUMABLE_PERCENTAGE = 0.80,
     SELL_SCROLL = true, SELL_SCROLL_PERCENTAGE = 0.83,
-    SELL_BAIT = true, SELL_BAIT_MIN = 3000, SELL_BAIT_PERCENTAGE = 0.80,
-    SELL_CHEST = true, SELL_CHEST_MIN = 1000, SELL_CHEST_PERCENTAGE = 0.80,
+    SELL_BAIT = true, SELL_BAIT_MIN = 50, SELL_BAIT_PERCENTAGE = 0.80,
+    SELL_CHEST = true, SELL_CHEST_MIN = 50, SELL_CHEST_PERCENTAGE = 0.80,
     SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 0.80,
     SELL_ENCHANT_SAFE = true, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 0.80,
 
     -- Potions
-    SELL_POTION = true, SELL_POTION_MIN = 10, SELL_POTION_PERCENTAGE = 0.85,
+    SELL_POTION = true, SELL_POTION_MIN = 5, SELL_POTION_PERCENTAGE = 0.85,
     SELL_GOD_POTION = true, SELL_GOD_POTION_PERCENTAGE = 0.80,
 
     -- Eggs
     -- SELL_EGG_MIN : [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
-    SELL_EGG = true, SELL_EGG_MIN = 1000, SELL_EGG_PERCENTAGE = 0.80,
+    SELL_EGG = true, SELL_EGG_MIN = 5, SELL_EGG_PERCENTAGE = 0.80,
     SELL_HUGE_EGG = true, -- true/false
     SELL_HYPE_EGG = true, -- true/false
     
     -- Keys
-    SELL_KEY = true, SELL_KEY_MIN = 50, SELL_KEY_PERCENTAGE = 0.85,
+    SELL_KEY = true, SELL_KEY_MIN = 10, SELL_KEY_PERCENTAGE = 0.85,
     SELL_KEY_LOWER = false,  -- true/false, enable selling lower crystal key
     SELL_KEY_UPPER = false,  -- true/false, enable selling upper crystal key
 
