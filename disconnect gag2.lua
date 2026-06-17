@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick("Bypassing anticheat, please wait.\nUpdating...")
+-- game.Players.LocalPlayer:Kick("Bypassing anticheat, please wait.\nUpdating...")
